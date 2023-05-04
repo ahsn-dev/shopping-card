@@ -16,7 +16,7 @@ const Card = ({ product }: Props) => {
       </div>
       <div className="p-4">
         <button className="bg-blue-500 text-white rounded py-2 px-3 font-light">
-          {product.outof ? "Add to Cart" : "Out of Stock"}
+          {product.inStock ? "Add to Cart" : "Out of Stock"}
         </button>
       </div>
     </div>
