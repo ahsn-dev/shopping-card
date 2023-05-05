@@ -15,7 +15,13 @@ interface Props {
   setCopyProducts: React.Dispatch<React.SetStateAction<never[]>>;
 }
 
-const CardWrapper = ({ products, setProducts, setCopyProducts }: Props) => {
+const CardWrapper = ({
+  products,
+  setProducts,
+  setCopyProducts,
+  copyProducts,
+  state,
+}: Props) => {
   useEffect(() => {
     axios.get("http://localhost:3000/products").then((res) => {
       setProducts([...res.data]);
@@ -24,8 +30,11 @@ const CardWrapper = ({ products, setProducts, setCopyProducts }: Props) => {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 gap-4 mt-8 mx-8 w-[80%]">
-      {products.map((product) => {
+    <div
+      onClick={() => console.log(state)}
+      className="grid grid-cols-3 gap-4 mt-8 mx-8 w-[80%]"
+    >
+      {copyProducts.map((product) => {
         return <Card key={product.id} product={product} />;
       })}
     </div>

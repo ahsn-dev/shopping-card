@@ -13,6 +13,7 @@ function filterReducer(state, action) {
       };
 
     case "inStock":
+      console.log(state.inStock);
       return {
         ...state,
         inStock: !state.inStock,
@@ -23,6 +24,13 @@ function filterReducer(state, action) {
         ...state,
         fastDelivery: !state.fastDelivery,
       };
+    case "removeFilter":
+      return {
+        sort: "Ascending",
+        inStock: false,
+        faseDelivery: false,
+        rating: 1,
+      };
 
     default:
       return state;
@@ -31,24 +39,29 @@ function filterReducer(state, action) {
 
 export default function App() {
   const [products, setProducts] = useState([]);
-  const [copyProducts, setCopyProducts] = useState([]);
+  const [copyProducts, setCopyProducts] = useState(products);
   const [state, dispatch] = useReducer(filterReducer, {
     sort: "Ascending",
     inStock: false,
     faseDelivery: false,
     rating: 1,
   });
+  console.log(copyProducts);
   return (
     <>
       <CartProvider>
         <Navbar />
         <div className="flex">
           <FilterProduct
-            products={products}
-            setProducts={setProducts}
+            copyProducts={copyProducts}
+            setCopyProducts={setCopyProducts}
             dispatch={dispatch}
+            state={state}
+            products={products}
           />
           <CardWrapper
+            state={state}
+            copyProducts={copyProducts}
             products={products}
             setProducts={setProducts}
             setCopyProducts={setCopyProducts}
