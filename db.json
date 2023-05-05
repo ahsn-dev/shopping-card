@@ -5,88 +5,200 @@
       "title": "Unbranded Fresh Bike",
       "price": 433,
       "delivery": "4 days delivery",
+      "fastDelivery": false,
       "star": 5,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/1/350/200"
     },
     {
       "id": 2,
       "title": "Refined Wooden Soap",
       "price": 233,
       "delivery": "4 days delivery",
+      "fastDelivery": false,
       "star": 2,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/2/350/200"
     },
     {
       "id": 3,
       "title": "Awesome Metal Chips",
       "price": 77,
       "delivery": "4 days delivery",
+      "fastDelivery": false,
       "star": 2,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/3/350/200"
     },
     {
       "id": 4,
       "title": "Licensed Soft Chips",
       "price": 1000,
       "delivery": "Fast Delivery",
+      "fastDelivery": true,
       "star": 4,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/4/350/200"
     },
     {
       "id": 5,
       "title": "Ergonomic Rubber Chair",
       "price": 675,
       "delivery": "Fast Delivery",
+      "fastDelivery": true,
       "star": 3,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/5/350/200"
     },
     {
       "id": 6,
       "title": "Ergonomic Granite Pants",
       "price": 680,
       "delivery": "Fast Delivery",
+      "fastDelivery": true,
       "star": 1,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/6/350/200"
     },
     {
       "id": 7,
       "title": "Handcrafted Plastic Pizza",
       "price": 423,
       "delivery": "Fast Delivery",
+      "fastDelivery": true,
       "star": 5,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/7/350/200"
     },
     {
       "id": 8,
       "title": "Refined Granite Bike",
       "price": 856,
       "delivery": "Fast Delivery",
+      "fastDelivery": true,
       "star": 2,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/8/350/200"
     },
     {
       "id": 9,
       "title": "Handmade Frozen Keyboard",
       "price": 830,
       "delivery": "4 days delivery",
+      "fastDelivery": false,
       "star": 4,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/9/350/200"
     },
     {
       "id": 10,
       "title": "Unbranded Soft Salad",
       "price": 847,
       "delivery": "Fast Delivery",
+      "fastDelivery": true,
       "star": 2,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/10/350/200"
     },
     {
       "id": 11,
       "title": "Handmade Rubber Keyboard",
       "price": 953,
       "delivery": "4 days delivery",
+      "fastDelivery": false,
       "star": 3,
-      "src": ""
+      "inStock": false,
+      "src": "https://picsum.photos/id/11/350/200"
+    },
+    {
+      "id": 12,
+      "title": "Small Wooden Salad",
+      "price": 70,
+      "delivery": "4 days delivery",
+      "fastDelivery": false,
+      "star": 4,
+      "inStock": true,
+      "src": "https://picsum.photos/id/12/350/200"
+    },
+    {
+      "id": 13,
+      "title": "Fantastic Frozen Gloves",
+      "price": 525,
+      "delivery": "Fast Delivery",
+      "fastDelivery": true,
+      "star": 5,
+      "inStock": true,
+      "src": "https://picsum.photos/id/13/350/200"
+    },
+    {
+      "id": 14,
+      "title": "Refined Metal Chicken",
+      "price": 51,
+      "delivery": "Fast Delivery",
+      "fastDelivery": true,
+      "star": 1,
+      "inStock": true,
+      "src": "https://picsum.photos/id/14/350/200"
+    },
+    {
+      "id": 15,
+      "title": "Ergonomic Metal Fish",
+      "price": 439,
+      "delivery": "Fast Delivery",
+      "fastDelivery": true,
+      "star": 2,
+      "inStock": true,
+      "src": "https://picsum.photos/id/15/350/200"
+    },
+    {
+      "id": 16,
+      "title": "Generic Steel Pizza",
+      "price": 728,
+      "delivery": "4 days delivery",
+      "fastDelivery": false,
+      "star": 4,
+      "inStock": true,
+      "src": "https://picsum.photos/id/16/350/200"
+    },
+    {
+      "id": 17,
+      "title": "Ergonomic Frozen Soap",
+      "price": 326,
+      "delivery": "4 days delivery",
+      "fastDelivery": false,
+      "star": 2,
+      "inStock": true,
+      "src": "https://picsum.photos/id/17/350/200"
+    },
+    {
+      "id": 18,
+      "title": "Tasty Fresh Pizza",
+      "price": 375,
+      "delivery": "Fast Delivery",
+      "fastDelivery": true,
+      "star": 1,
+      "inStock": true,
+      "src": "https://picsum.photos/id/18/350/200"
+    },
+    {
+      "id": 19,
+      "title": "Generic Wooden Soap",
+      "price": 861,
+      "delivery": "Fast Delivery",
+      "fastDelivery": true,
+      "star": 4,
+      "inStock": true,
+      "src": "https://picsum.photos/id/19/350/200"
+    },
+    {
+      "id": 20,
+      "title": "Awesome Soft Mouse",
+      "price": 347,
+      "delivery": "Fast Delivery",
+      "fastDelivery": true,
+      "star": 5,
+      "inStock": true,
+      "src": "https://picsum.photos/id/20/350/200"
     }
   ]
 }
