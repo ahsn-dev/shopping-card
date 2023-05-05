@@ -30,10 +30,7 @@ const CardWrapper = ({
   }, []);
 
   return (
-    <div
-      onClick={() => console.log(state)}
-      className="grid grid-cols-3 gap-4 mt-8 mx-8 w-[80%]"
-    >
+    <div className="grid grid-cols-3 gap-4 mt-8 mx-8 w-[80%]">
       {copyProducts.map((product) => {
         return <Card key={product.id} product={product} />;
       })}

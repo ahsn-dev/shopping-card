@@ -86,7 +86,7 @@ const FilterProduct = ({
         className="bg-gray-100 px-20 py-2 rounded text-slate-700 hover:bg-gray-200"
         onClick={() => {
           dispatch({ type: "removeFilter" });
-          setCopyProducts(products);
+          setCopyProducts(products.filter((item) => item.inStock === true));
         }}
       >
         Clear Filter

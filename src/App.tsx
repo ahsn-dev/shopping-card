@@ -39,16 +39,14 @@ function filterReducer(state, action) {
 
 export default function App() {
   const [products, setProducts] = useState([]);
-  const [copyProducts, setCopyProducts] = useState(
-    products.filter((item) => item.inStock === true)
-  );
+  const [copyProducts, setCopyProducts] = useState(products);
   const [state, dispatch] = useReducer(filterReducer, {
     sort: "Ascending",
     inStock: false,
     faseDelivery: false,
     rating: 1,
   });
-  console.log(copyProducts);
+  // console.log(copyProducts);
   return (
     <>
       <CartProvider>
