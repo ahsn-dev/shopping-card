@@ -22,11 +22,11 @@ const FilterProduct = ({
         onChange={(e) => {
           dispatch({ type: "sort", payload: e.target.value });
           if (state.sort === "Ascending") {
-            console.log("asd");
+            // console.log("asd");
             setCopyProducts(copyProducts.sort((a, b) => a.price - b.price));
           }
           if (state.sort === "Descending") {
-            console.log("des");
+            // console.log("des");
             setCopyProducts(products.sort((a, b) => b.price - a.price));
           }
         }}
@@ -52,7 +52,7 @@ const FilterProduct = ({
               dispatch({ type: "inStock" });
               state.inStock
                 ? setCopyProducts(
-                    copyProducts.filter((item) => item.inStock === true)
+                    products.filter((item) => item.inStock === true)
                   )
                 : setCopyProducts(products);
             }}

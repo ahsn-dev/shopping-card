@@ -25,7 +25,7 @@ const CardWrapper = ({
   useEffect(() => {
     axios.get("http://localhost:3000/products").then((res) => {
       setProducts([...res.data]);
-      setCopyProducts([...res.data]);
+      setCopyProducts([...res.data.filter((item) => item.inStock === true)]);
     });
   }, []);
 

@@ -39,7 +39,9 @@ function filterReducer(state, action) {
 
 export default function App() {
   const [products, setProducts] = useState([]);
-  const [copyProducts, setCopyProducts] = useState(products);
+  const [copyProducts, setCopyProducts] = useState(
+    products.filter((item) => item.inStock === true)
+  );
   const [state, dispatch] = useReducer(filterReducer, {
     sort: "Ascending",
     inStock: false,
