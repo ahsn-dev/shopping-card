@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import axios from "axios";
 import Card from "./Card";
 
@@ -9,20 +9,23 @@ interface products {
   start: number;
 }
 
-const CardWrapper = () => {
-  const [products, setProducts] = useState([]);
+interface Props {
+  setProducts: React.Dispatch<React.SetStateAction<never[]>>;
+  products: any;
+  setCopyProducts: React.Dispatch<React.SetStateAction<never[]>>;
+}
 
+const CardWrapper = ({ products, setProducts, setCopyProducts }: Props) => {
   useEffect(() => {
     axios.get("http://localhost:3000/products").then((res) => {
       setProducts([...res.data]);
+      setCopyProducts([...res.data]);
     });
   }, []);
 
   return (
     <div className="grid grid-cols-3 gap-4 mt-8 mx-8 w-[80%]">
       {products.map((product) => {
-        // console.log(product);
-
         return <Card key={product.id} product={product} />;
       })}
     </div>

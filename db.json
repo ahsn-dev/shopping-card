@@ -8,7 +8,7 @@
       "fastDelivery": false,
       "star": 5,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/1/350/200"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "fastDelivery": false,
       "star": 2,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/2/350/200"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "fastDelivery": false,
       "star": 2,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/3/350/200"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "fastDelivery": true,
       "star": 4,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/4/350/200"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "fastDelivery": true,
       "star": 3,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/5/350/200"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "fastDelivery": true,
       "star": 1,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/6/350/200"
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "fastDelivery": true,
       "star": 5,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/7/350/200"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "fastDelivery": true,
       "star": 2,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/8/350/200"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "fastDelivery": false,
       "star": 4,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/9/350/200"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "fastDelivery": true,
       "star": 2,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/10/350/200"
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "fastDelivery": false,
       "star": 3,
       "inStock": false,
-      "src": ""
+      "src": "https://picsum.photos/id/11/350/200"
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
       "fastDelivery": false,
       "star": 4,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/12/350/200"
     },
     {
       "id": 13,
@@ -128,7 +128,7 @@
       "fastDelivery": true,
       "star": 5,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/13/350/200"
     },
     {
       "id": 14,
@@ -138,7 +138,7 @@
       "fastDelivery": true,
       "star": 1,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/14/350/200"
     },
     {
       "id": 15,
@@ -148,7 +148,7 @@
       "fastDelivery": true,
       "star": 2,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/15/350/200"
     },
     {
       "id": 16,
@@ -158,7 +158,7 @@
       "fastDelivery": false,
       "star": 4,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/16/350/200"
     },
     {
       "id": 17,
@@ -168,7 +168,7 @@
       "fastDelivery": false,
       "star": 2,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/17/350/200"
     },
     {
       "id": 18,
@@ -178,7 +178,7 @@
       "fastDelivery": true,
       "star": 1,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/18/350/200"
     },
     {
       "id": 19,
@@ -188,7 +188,7 @@
       "fastDelivery": true,
       "star": 4,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/19/350/200"
     },
     {
       "id": 20,
@@ -198,7 +198,7 @@
       "fastDelivery": true,
       "star": 5,
       "inStock": true,
-      "src": ""
+      "src": "https://picsum.photos/id/20/350/200"
     }
   ]
 }

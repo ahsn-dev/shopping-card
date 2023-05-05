@@ -1,8 +1,19 @@
-const FilterProduct = () => {
+interface Props {
+  products: [];
+  setProducts: () => void;
+  dispatch: any;
+}
+
+const FilterProduct = ({ product, setProducts, dispatch }: Props) => {
   return (
     <div className="w-[20%] h-[39rem] bg-[#343A40] text-white m-2 p-4 flex flex-col gap-y-12">
       <h2 className="text-3xl font-light">Filter Products</h2>
-      <div className="text-white flex flex-col gap-y-4">
+      <div
+        className="text-white flex flex-col gap-y-4"
+        onChange={(e) => {
+          dispatch({ action: "sort", payload: e.target.value });
+        }}
+      >
         <span>
           <input type="radio" id="ascending" name="order" value={"Ascending"} />
           <label htmlFor="ascending">Ascending</label>
@@ -20,6 +31,9 @@ const FilterProduct = () => {
       <div className="flex flex-col text-white gap-y-6">
         <span>
           <input
+            onChange={() => {
+              dispatch({ action: "inStock" });
+            }}
             type="checkbox"
             id="out-of-stock"
             value={"Include out of stock"}
@@ -28,6 +42,9 @@ const FilterProduct = () => {
         </span>
         <span>
           <input
+            onChange={() => {
+              dispatch({ action: "fastDelivery" });
+            }}
             type="checkbox"
             id="fast-delivery"
             value={"Fast delivery only"}

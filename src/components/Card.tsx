@@ -1,11 +1,11 @@
 interface Props {
-  product: object;
+  product: any;
 }
 
 const Card = ({ product }: Props) => {
   return (
     <div className="text-black w-full h-full rounded border border-gray-300">
-      <img src="https://picsum.photos/350/200" alt="" className="rounded-t" />
+      <img src={product.src} alt="" className="rounded-t" />
       <div className="p-4 flex flex-col">
         <h3 className="text-xl font-medium">{product.title}</h3>
         <p>
